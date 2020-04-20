@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D53B8E7A-AED6-3375-B830-083242670E8F" name="Edmund_Repair">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>F8F7723D-B7ED-563F-A80A-9CC7F9B05D6B</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Repair_Id" id="CE08BE91-DB36-7310-BB70-BD562C4EADC6">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>76B8F719-8F4D-6E6B-326C-88B674A49EAB</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serial_Number" id="E9ED1570-EA76-E1C8-6005-5A9F9F357C56">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>C1903A37-6B83-00F5-4558-4A2A9D20A5E8</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_Id" id="4AA9FA22-7A12-029F-BDEB-102D8D96A969">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>5A886851-7F56-2E78-E58A-016BC4077386</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="443B1A1F-AB0E-AD16-90EE-37353426174A">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>6E2EA7F0-4BEE-FE5B-FF80-E8B76D36F036</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fault_Description" id="BB055E56-EC7C-DD85-5DA7-56FB7EAB980B">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>D7A0E69F-45E2-8C91-50DA-8C14101A2A17</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Repair_Date" id="4380FB46-4593-7EB0-4412-E5EA3CD14E79">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>6EE8E66C-A9B2-5843-8A96-E41E5D020F11</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Appliance_Condition" id="B4920C77-1F36-7FF2-07B1-37C23A9E3DDA">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>C22B8BCC-ADA9-15E0-EF09-0218CC3AFDED</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Repair_Information" id="D5C63F1B-5D3E-8DD9-D1D6-945538C275EC">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>63BC06EE-C803-5F74-7B83-4A41B0CEA6AE</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parts_Replaced" id="1B4DE847-CB28-3969-A9BB-A50800821258">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>EB4296B7-58A1-2A47-422C-AEAAC2AF3140</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Repair_Date" id="CFB5E69E-9CDD-280B-932B-D8CB25BEC558">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>9DAF13CA-F0AA-03EC-A2C7-AE31DE4DB5E5</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Center_Id" id="3EE92488-9345-388C-B8C5-E399BA7FA3AE">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>97253642-0F46-8C62-CAB2-E2479F27AB1C</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edmund_Stock_Serial_Number" id="BEA6EDD3-990D-8767-E578-A6C2318C0F1F">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:53:44 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6CA572B-C759-1054-D475-1A0CBFB0BF04" referredColumn="D1112CF0-DC1C-B126-CA0B-D9073BEC6271"/>
+</associations>
+</Column>
+<Column name="Edmund_Sales_Sale_Id" id="991B45B2-BE41-DE77-C7FC-5AEEB5E3A843">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:54:12 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F976AC3-7008-BE00-16A5-B935DC929492" referredColumn="6726EBC9-B070-5466-A30D-FF61AB541244"/>
+</associations>
+</Column>
+<Column name="Customer_Customer_Id" id="B82122AD-AAA0-9701-D35D-8EDF4959665D">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:54:34 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1210951-4950-8A67-9FBE-2620153436C7" referredColumn="E91EAF3A-C5C7-4C9B-61B3-15084F2FC2D4"/>
+</associations>
+</Column>
+<Column name="Service_Center_Id" id="4EF321B7-93E1-BC1C-698B-EF44AA5BAE43">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:55:01 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F6C0F1C-4E4A-0873-B7EB-5172E06B66D5" referredColumn="2DD59B4E-0E25-5EF4-3ADE-CA7B79749C1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F815ECA-F2B0-5057-59E4-52FAC6C0047A" name="Edmund_Repair_PK">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>463592D3-B491-A30A-1E17-FF5B881630CD</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE08BE91-DB36-7310-BB70-BD562C4EADC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30CCF8C7-E7D6-C499-D323-77BB2BB2534A" name="FK_Serial_Id">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:53:44 UTC</createdTime>
+<generatorID>3CF5B1A4-3567-2588-7526-6A549550AA8F</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA6EDD3-990D-8767-E578-A6C2318C0F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C24A79-D6C8-CE0C-4F60-E4A1F5966724" name="FK_Sales_Id">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:54:12 UTC</createdTime>
+<generatorID>0F906A84-3B93-FFFE-E93C-A2E68D39F6DB</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="991B45B2-BE41-DE77-C7FC-5AEEB5E3A843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93AFE994-F95E-005D-0F4A-9F7BEF31D79C" name="FK_Customer_Idv2">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:54:34 UTC</createdTime>
+<generatorID>A73EA553-0EB9-76B1-B6F8-1A187897025B</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B82122AD-AAA0-9701-D35D-8EDF4959665D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71603A3C-AFC3-5918-F002-BE783701012D" name="FK_Center_Idv1">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:55:01 UTC</createdTime>
+<generatorID>83A80F71-C710-8ECF-3A0B-6A2D3C5589F3</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EF321B7-93E1-BC1C-698B-EF44AA5BAE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

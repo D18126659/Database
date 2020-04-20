@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17754CF9-D0B4-1030-0D5F-4A37ABD8FD3A" name="Customer">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:02:37 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Customer_Id" id="225ECD0C-C58E-85C2-42E6-0BC25BA4272B">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:02:45 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A0822923-053D-03DA-664E-27B66D365A43">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:02:53 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="0571D007-4676-573A-3249-B706F8E1B0A8">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:03:05 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_number" id="196F04A4-FD25-A573-7A35-E76DA3739378">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:03:24 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="AB42D958-0CA1-EEBA-06B8-719138ECE700">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:03:35 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A73EA553-0EB9-76B1-B6F8-1A187897025B" name="PK_Customer_Id">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:09:09 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>225ECD0C-C58E-85C2-42E6-0BC25BA4272B</newElementsIDs>
+<usedAttributes>
+<attributeRef>225ECD0C-C58E-85C2-42E6-0BC25BA4272B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

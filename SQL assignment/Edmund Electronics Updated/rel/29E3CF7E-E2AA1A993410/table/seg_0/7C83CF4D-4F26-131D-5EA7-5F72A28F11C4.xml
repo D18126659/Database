@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C83CF4D-4F26-131D-5EA7-5F72A28F11C4" name="Services">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:25:16 UTC</createdTime>
+<generatorID>911DCB7B-83BB-5951-C061-F2F1718E65C6</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Center_Id" id="2DD59B4E-0E25-5EF4-3ADE-CA7B79749C1C">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:25:16 UTC</createdTime>
+<generatorID>452D823A-64E2-4627-EA01-115CE3C09497</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="6ECFC648-A44C-3DF9-5EA5-E398A1837AF3">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:25:16 UTC</createdTime>
+<generatorID>B164565D-94B1-245B-F219-EBDF7D85D6FD</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="E61ACAE2-8BA9-CFF8-E383-9AC610A34ED1">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:25:16 UTC</createdTime>
+<generatorID>2261D775-1DDF-5BA0-9A2B-6831F27F9019</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCDAE513-5CD3-E05A-1A44-186181F6AA9F" name="Service_PK">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:25:52 UTC</createdTime>
+<generatorID>83A80F71-C710-8ECF-3A0B-6A2D3C5589F3</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD59B4E-0E25-5EF4-3ADE-CA7B79749C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

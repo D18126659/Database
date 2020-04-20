@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8079A93A-C7A4-32DA-DE94-4E80C1138896" name="Edmund_Sales">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>ACC45650-0C46-A7D9-4DC9-569BD5387F9E</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<abbreviation>Sales</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sale_Id" id="6726EBC9-B070-5466-A30D-FF61AB541244">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>E08B3B88-575E-877B-C70E-388BD9C01525</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="E2DDCD6B-2A14-DEB4-675B-202E5F77D209">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>03C156A9-F117-5CC2-FDB3-6DB471B2EAF1</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Serial_Id" id="CAD67B08-72B9-84DE-A3C2-20DEEB20CC32">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>783852A7-C3BA-ECD5-7D82-B0EF5F11C07B</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Of_Sale" id="9F158632-C139-F7AE-8E22-D85DD4B73CE6">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>0418025A-B32A-FE23-3118-BF41E7A1716E</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gurantee_Expiry" id="BF7A1FA5-523F-0621-0E23-BF78C4BF05D9">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>A2D3EECC-DE84-7975-6E89-846247FE0EDD</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edmund_Stock_Serial_Number" id="967AF1D7-47A8-F08D-B5AB-25D23BAF793A">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:51:16 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76393525-3F93-BF32-A138-00CD690827F7" referredColumn="D1112CF0-DC1C-B126-CA0B-D9073BEC6271"/>
+</associations>
+</Column>
+<Column name="Customer_Customer_Id" id="A7168CA8-692F-637B-2145-88BEE44FEE69">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:52:25 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9DA0324-42AF-EE32-C631-49AC8545359D" referredColumn="E91EAF3A-C5C7-4C9B-61B3-15084F2FC2D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B0FE054-01CD-A455-CB8B-4DBB63DDBABC" name="Edmund_Sales_PK">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:17:52 UTC</createdTime>
+<generatorID>0F906A84-3B93-FFFE-E93C-A2E68D39F6DB</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6726EBC9-B070-5466-A30D-FF61AB541244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E88CDE28-F962-FE9C-7EE8-66891115DDCF" name="FK_Serial_Num">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:51:16 UTC</createdTime>
+<generatorID>3CF5B1A4-3567-2588-7526-6A549550AA8F</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967AF1D7-47A8-F08D-B5AB-25D23BAF793A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34D4BA54-7E7E-E38F-B08B-F1DFDF47F669" name="FK_Customer_Id">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:52:25 UTC</createdTime>
+<generatorID>A73EA553-0EB9-76B1-B6F8-1A187897025B</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7168CA8-692F-637B-2145-88BEE44FEE69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

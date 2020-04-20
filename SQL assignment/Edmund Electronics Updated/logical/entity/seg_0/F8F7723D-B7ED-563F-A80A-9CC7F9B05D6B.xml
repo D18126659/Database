@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8F7723D-B7ED-563F-A80A-9CC7F9B05D6B" name="Edmund Repair">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:55:32 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Repair_Id" id="76B8F719-8F4D-6E6B-326C-88B674A49EAB">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:55:40 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fault_Description" id="D7A0E69F-45E2-8C91-50DA-8C14101A2A17">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:58:57 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_Repair_Date" id="6EE8E66C-A9B2-5843-8A96-E41E5D020F11">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:59:11 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Appliance_Condition" id="C22B8BCC-ADA9-15E0-EF09-0218CC3AFDED">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:59:25 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Repair_Information" id="63BC06EE-C803-5F74-7B83-4A41B0CEA6AE">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:59:39 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parts_Replaced" id="EB4296B7-58A1-2A47-422C-AEAAC2AF3140">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:59:47 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Repair_Date" id="9DAF13CA-F0AA-03EC-A2C7-AE31DE4DB5E5">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:01:14 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="463592D3-B491-A30A-1E17-FF5B881630CD" name="PK_Repair_Id">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:08:49 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>76B8F719-8F4D-6E6B-326C-88B674A49EAB</newElementsIDs>
+<usedAttributes>
+<attributeRef>76B8F719-8F4D-6E6B-326C-88B674A49EAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,49 @@
+Edmund electronics
+----------------------
+-Sells appliances
+-Appliance guarantee
+-Date of applance sale
+-Customer information
+-Guarantee_Deleted
+-Name
+-Address
+-Guarantee Expires
+-Manufacturer name
+-Manufacturer Address
+
+
+Edmund Repair System
+----------------------
+-Name
+-Customer_Id
+-Customer_number
+-Customer_Address
+-Fault_Description
+-Customer Appliance
+-On sight repair
+-Manufacturer name
+-Manufacturer Address
+-Appliance_serial
+-Appliance brand
+-Date_Of_Purchase
+
+
+Product Manufacturer
+---------------------
+-Manufacturer Name
+-Manufacturer Address
+-Manufacturer product
+-Product_id
+-Product_Recieved
+-Repair_Id
+
+
+
+Customer
+-----------
+-Name
+-Address
+-Item_Purchased
+-Item_Guarantee
+
+

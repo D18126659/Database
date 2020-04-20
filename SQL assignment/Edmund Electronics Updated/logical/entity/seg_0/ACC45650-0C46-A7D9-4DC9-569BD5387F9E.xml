@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACC45650-0C46-A7D9-4DC9-569BD5387F9E" name="Edmund Sales">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:30:58 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Sales</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sale_Id" id="E08B3B88-575E-877B-C70E-388BD9C01525">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:40:57 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_Of_Sale" id="0418025A-B32A-FE23-3118-BF41E7A1716E">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:46:18 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gurantee_Expiry" id="A2D3EECC-DE84-7975-6E89-846247FE0EDD">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:46:31 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F906A84-3B93-FFFE-E93C-A2E68D39F6DB" name="PK_Sale_ID">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:07:11 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E08B3B88-575E-877B-C70E-388BD9C01525</newElementsIDs>
+<usedAttributes>
+<attributeRef>E08B3B88-575E-877B-C70E-388BD9C01525</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

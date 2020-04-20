@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="17754CF9-D0B4-1030-0D5F-4A37ABD8FD3A" name="Customer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3C192F63-CA27-E791-CB49-FAA746C0FE51" name="Edmund Stock" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="911DCB7B-83BB-5951-C061-F2F1718E65C6" name="Service" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="ACC45650-0C46-A7D9-4DC9-569BD5387F9E" name="Edmund Sales" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D1F7120E-69FD-B0BB-A795-CB877B2FAD49" name="Product Manufacturer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F8F7723D-B7ED-563F-A80A-9CC7F9B05D6B" name="Edmund Repair" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0E06E32F-5EB2-8051-A32E-D3B7B784FEBB" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

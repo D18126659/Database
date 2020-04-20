@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Edmund Electronics Updated" id="A17A1B3C-65F8-C933-308E-665FBF651AC9" version="3.5">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 12:30:15 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A17A1B3C-65F8-C933-308E-665FBF651AC9</designId>
+</OSDM_Design>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="76393525-3F93-BF32-A138-00CD690827F7" containerWithKeyObject="8079A93A-C7A4-32DA-DE94-4E80C1138896" localFKIndex="E88CDE28-F962-FE9C-7EE8-66891115DDCF" name="FK_Serial_Num">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:51:16 UTC</createdTime>
+<generatorID>3CF5B1A4-3567-2588-7526-6A549550AA8F</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<referredTableLongName>Edmund_Stock</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D57082BB-97BA-1948-A874-9646A3A626DF</referredTableID>
+<keyObject>9CE74F5B-E570-C273-8919-E36165C8F520</keyObject>
+<referredKeyID>9CE74F5B-E570-C273-8919-E36165C8F520</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Serial_Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateName>FK_Serial_Num</columnDependencyConstraintGenerateName>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F6C0F1C-4E4A-0873-B7EB-5172E06B66D5" containerWithKeyObject="D53B8E7A-AED6-3375-B830-083242670E8F" localFKIndex="71603A3C-AFC3-5918-F002-BE783701012D" name="FK_Center_Idv1">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:55:01 UTC</createdTime>
+<generatorID>83A80F71-C710-8ECF-3A0B-6A2D3C5589F3</generatorID>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<referredTableLongName>Service</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C83CF4D-4F26-131D-5EA7-5F72A28F11C4</referredTableID>
+<keyObject>BCDAE513-5CD3-E05A-1A44-186181F6AA9F</keyObject>
+<referredKeyID>BCDAE513-5CD3-E05A-1A44-186181F6AA9F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Center_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateName>FK_Center_Id</columnDependencyConstraintGenerateName>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C192F63-CA27-E791-CB49-FAA746C0FE51" name="Edmund Stock">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:04:33 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serial_Number" id="92F21AE9-EC6D-A5F6-CF04-789582FD0D11">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:04:42 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Brand" id="CD4C8A6B-38F3-2FA2-DE43-0B389BCC0C90">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:05:45 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gurarantee_Length" id="E454F59F-CF85-521B-BC12-53F9B3BA4313">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:06:12 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost" id="0055AB17-F0CC-D234-AFE4-6DEB13176FED">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:06:30 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="B9984FA3-6D1E-A820-0CF0-8F06C49F2838">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:06:40 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CF5B1A4-3567-2588-7526-6A549550AA8F" name="PK_Serial_Number">
+<createdBy>Sultan</createdBy>
+<createdTime>2020-04-10 13:09:27 UTC</createdTime>
+<ownerDesignName>Edmund Electronics Updated</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="29E3CF7E-CF25-59F9-8BF1-E2AA1A993410" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>92F21AE9-EC6D-A5F6-CF04-789582FD0D11</newElementsIDs>
+<usedAttributes>
+<attributeRef>92F21AE9-EC6D-A5F6-CF04-789582FD0D11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
